@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wedd12"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/bride"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:hint="Brides's name"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/groom"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Groom's name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:inputType="textPersonName"
+        android:hint="Date of the wedding"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:inputType="textPersonName"
+        android:hint="Time of the wedding"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/venue"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Venue of the wedding"/>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:inputType="textPersonName"
+        android:hint="Description"/>
+
+    <Button
+        android:id="@+id/crt_but"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:text="CREATE"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="130dp"
+        android:alpha="0.5"
+        android:background="@drawable/round_buttt"
+        android:padding="15dp"/>
+
+</LinearLayout>

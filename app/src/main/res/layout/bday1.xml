@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bday_pic1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+    <TextView
+        android:text="YOU ARE INVITED TO
+        B'DAY PARTY"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"
+        android:background="@null"
+        android:textColor="#cd00cd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_gravity="top|center_vertical" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="Name"
+        android:background="@null"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView1"
+        android:textStyle="bold"
+        android:textColor="#ff748c"
+        android:id="@+id/textview2"
+        />
+
+
+    <TextView
+        android:text="is having B'Day party
+              AT"
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:background="@null"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textview2"
+        android:textSize="30dp"
+        android:textColor="#ffff00"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:text="TIME"
+    android:textColor="#993299"
+        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textView2"
+        android:background="@null"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:text="ON"
+        android:textColor="#ffff00"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+
+    <TextView
+        android:text="DATE"
+        android:textColor="#993299"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:background="@null"
+        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:text="AT"
+        android:textColor="#ffff00"
+        android:layout_marginLeft="100dp"
+        android:background="@null"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/textView2"
+        android:textSize="20dp"
+        android:background="@null"
+        android:textColor="#993299"
+        android:layout_marginTop="10dp"
+        android:text="VENUE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+
+</LinearLayout>
